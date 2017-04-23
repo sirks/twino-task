@@ -1,0 +1,6 @@
+country.limit.service:
+  limit: 5
+
+country.geoip.service:
+  service.url.template: "http://freegeoip.net/json/{ip}"
+  default.country.code: LV
